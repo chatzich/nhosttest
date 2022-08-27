@@ -1,4 +1,4 @@
-CREATE TABLE coyntries(
-   id serial PRIMARY KEY,
+CREATE TABLE public coyntries(
+   id INTEGER PRIMARY KEY,
    name VARCHAR (255) UNIQUE NOT NULL
 );
